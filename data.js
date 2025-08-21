@@ -27,11 +27,10 @@ window.HOTSPOTS = [
 */
 window.BUTTONS = [
   { x: 88, y: 89, label: "Manual", href: "manuales/MANUAL SIR AGENCIAS.pdf", target: "blank", variant: "ghost" },
-  {
-    x: 82.9, y: 89, // Menu SIR
-    label: "Menú",
+  { x: 78.9, y: 89, // Menu SIR
+    label: "Menu SIR",
     href: "https://wilvar88.github.io/SIR-Men-/",
-    target: "blank",
+    target: "self",
     // Si quieres totalmente transparente, puedes usar la variante 'transparent'
     // (ojo: pone background transparente con !important)
     variant: "transparent",
@@ -47,6 +46,6 @@ window.BUTTONS = [
       radius: 200,
       shadow: false,           // sin sombra
       borderColor: "transparent"
-    },
+    }
+  }
 ];
-
